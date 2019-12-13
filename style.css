@@ -1,0 +1,29 @@
+*{
+      box-sizing: border-box;
+    }
+
+    body{
+      display: flex !important;
+      flex-direction: column !important;      
+      text-align: center;
+    }
+
+    canvas{
+      justify-self: center;
+      max-width: 90vw !important;
+      /* background-color: aquamarine;
+      border: 1px solid chartreuse; */
+      margin-bottom: 5px;
+	  display: flex;
+	  margin: 0 auto;
+    }
+
+    button{
+      margin-left: 5px;
+    }
+
+    select, button {
+      display: block;
+      width: 100px !important;
+	  margin: 0 auto;
+    }
